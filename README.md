@@ -36,7 +36,7 @@ Anyone. Absolutely anyone can contribute to this repository. Please check the ru
 - Feel free to improve the README.md
 
 ## Rules
-### Please follow format used in `Basic_commands.md`
+### Please follow format used in [Linux-commands/Basic_commands.md](https://github.com/gandalf0079/Linux-commands/blob/master/Basic_commands.md)
 - Please do not spam pull request for the sake of Hacktoberfest.
 - No duplicate entries. Please check if the command is existing before you submit.
 - Star this repository to show appreciation towards public efforts.
