@@ -4,11 +4,11 @@
 
 <p align="center">
 <img style="padding:10px;" src="https://img.shields.io/badge/Open%20Source-💕%20-9cf?style=for-the-badge"><br>
-<img style="padding:10px;" src="https://img.shields.io/github/contributors/Amit00790/Docker-commands?style=flat-square">
-<img style="padding:10px;" src="https://img.shields.io/github/forks/Amit00790/Docker-commands?label=Forks&style=flat-square">
-<img style="padding:10px;" src="https://img.shields.io/github/stars/Amit00790/Docker-commands?style=flat-square">
-<img style="padding:10px;" src="https://img.shields.io/github/license/Amit00790/Docker-commands?style=flat-square">
-<img style="padding:10px;" src="http://img.shields.io/github/issues/Amit00790/Docker-commands?style=flat-square">
+<img style="padding:10px;" src="https://img.shields.io/github/contributors/gandalf0079/Docker-commands?style=flat-square">
+<img style="padding:10px;" src="https://img.shields.io/github/forks/gandalf0079/Docker-commands?label=Forks&style=flat-square">
+<img style="padding:10px;" src="https://img.shields.io/github/stars/gandalf0079/Docker-commands?style=flat-square">
+<img style="padding:10px;" src="https://img.shields.io/github/license/gandalf0079/Docker-commands?style=flat-square">
+<img style="padding:10px;" src="http://img.shields.io/github/issues/gandalf0079/Docker-commands?style=flat-square">
 
 
 
