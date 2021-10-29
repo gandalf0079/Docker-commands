@@ -111,7 +111,7 @@
    docker container rm -f $(docker ps -aq)
    ```
 
-#### Running a Docker image
+#### Managing conainters
 1. Show a list of running containers
    ```
    docker ps
