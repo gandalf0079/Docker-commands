@@ -169,3 +169,39 @@
    docker commit CONTAINER
    docker commit web
    ```
+
+#### Info & Stats
+1. Show the logs of a container
+   ```
+   docker logs CONTAINER
+   docker logs web
+   ```
+2. Show stats of running container
+   ```
+   docker stats
+   ```
+3. Show processes of container
+   ```
+   docker top CONTAINER
+   docker top web
+   ```
+4. Show installed docker version
+   ```
+   docker version
+   ```
+5. Get detailed info about an object
+   ```
+   docker inspect NAME
+   docker inspect nginx
+   ```
+6. Show all modified files in container
+   ```
+   docker diff CONTAINER
+   docker diff web
+   ```
+7. Show mapped ports of a container
+   ```
+   docker port CONTAINER
+   docker port web
+   ```
+
