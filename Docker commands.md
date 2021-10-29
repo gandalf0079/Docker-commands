@@ -120,3 +120,17 @@
    ```
    docker ps -a
    ```
+3. Delete a container
+   ```
+   docker rm CONTAINER
+   docker rm web
+   ```
+4. Delete a running container
+   ```
+   docker rm -f CONTAINER
+   docker rm -f web
+   ```
+5. Delete stopped containers
+   ```
+   docker container prune
+   ```
