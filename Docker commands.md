@@ -205,3 +205,55 @@
    docker port web
    ```
 
+#### Manage Images
+1. Download an image
+   ```
+   docker pull IMAGE[:TAG]
+   docker pull nginx
+   ```
+2. Upload an image to a repository
+   ```
+   docker push IMAGE
+   docker push myimaga:1.0
+   ```
+3. Delete an image
+   ```
+   docker rmi IMAGE
+   ```
+4. Show a list of all images
+   ```
+   docker images
+   ```
+5. Delete dangling images
+   ```
+   docker image prune
+   ```
+6. Delete all unused images
+   ```
+   docker image prune -a
+   ```
+7. Build an image from a Dockerfile
+   ```
+   docker build DIRECTORY
+   docker build .
+   ```
+8. Tag an image
+   ```
+   docker tag IMAGE NEWIMAGE
+   docker tag ubuntu ubuntu:18.04
+   ```
+9. Build and tag an image from a Dockerfile
+   ```
+   docker build -t IMAGE DIRECTORY
+   docker build -t myimage
+   ```
+10. Save an image to tar file
+   ```
+   docker save IMAGE > FILE
+   docker save nginx > nginx.tar
+   ```
+11. Load an image from a tar file
+   ```
+   docker load -i TARFILE
+   docker load -i nginx.tar
+   ```
