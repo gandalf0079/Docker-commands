@@ -134,3 +134,38 @@
    ```
    docker container prune
    ```
+6. Stop a running container
+   ```
+   docker stop CONTAINER
+   docker stop web
+   ```
+7. Start a stopped container
+   ```
+   docker start CONTAINER
+   docker start web
+   ```
+8. Copy a file from a container to the host
+   ```
+   docker cp CONTAINER:SOURCE TARGET
+   docker cp web:/index.html index.html
+   ```
+9. Copy a file from the host to the container
+   ```
+   docker cp TARGET CONTAINER:SOURCE
+   docker cp index.html web:/index.html
+   ```
+10. Start a shell inside a running container
+   ```
+   docker exec -it CONTAINER EXECUTABLE
+   docker exec -it web bash
+   ```
+11. Rename a container
+   ```
+   docker rename OLD_NAME NEW_NAME
+   docker rename 096 web
+   ```
+12. Create an image out of container
+   ```
+   docker commit CONTAINER
+   docker commit web
+   ```
