@@ -41,3 +41,13 @@
    ```
    docker push myrepo/myimage:2.0
    ```
+   
+#### Running a Docker image
+1. Run a container from the Alpine version 3.9 image, name the running container "web" and expose port 5000 externally, mapped port 80 inside the container
+   ```
+   docker container run --name web -p 5000:80 alpine:3.9
+   ```
+2. Stop a running container through SIGTERM
+   ```
+   docker container stop web
+   ```
