@@ -59,3 +59,11 @@
    ```
    docker network ls
    ```
+5. List the running containers (add --all to include stopped containers)
+   ```
+   docker container ls
+   ```
+6. Delete all running and stopped containers
+   ```
+   docker container rm -f $(docker ps -aq)
+   ```
