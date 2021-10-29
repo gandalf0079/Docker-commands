@@ -51,3 +51,11 @@
    ```
    docker container stop web
    ```
+3. Stop a running container through SIGKILL
+   ```
+   docker container kill web
+   ```
+4. List the networks
+   ```
+   docker network ls
+   ```
